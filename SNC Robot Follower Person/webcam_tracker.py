@@ -69,9 +69,9 @@ def main():
 				centerY =  int(startY + ((endY - startY)/2))
                 
 				print(Go)
-				if centerX > dot1 +20 :
+				if centerX > dot1 +25 :
     					Go = var.write('p'.encode())
-				if centerX < dot1 -20 :
+				if centerX < dot1 -25 :
     					Back = var.write('m'.encode())
 				#draw the prediction on the frame
 				#label = "{}: {:.2f}%".format('person',confidence * 100)
